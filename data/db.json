@@ -1,0 +1,16 @@
+{
+  "journal": [
+    {
+      "journalInformation": "Hello Omar",
+      "id": 1
+    },
+    {
+      "journalInformation": "Hello Nas",
+      "id": 2
+    },
+    {
+      "journalInformation": "Hello Megan",
+      "id": 3
+    }
+  ]
+}
