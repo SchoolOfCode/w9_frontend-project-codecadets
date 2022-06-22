@@ -2,8 +2,6 @@ import React from "react";
 import "./Journal-Input.css";
 import { useState } from "react";
 
-
-
 function Input({ setJournal, journal }) {
   const [text, setText] = useState(" ");
 
@@ -12,7 +10,6 @@ function Input({ setJournal, journal }) {
   }
   console.log(text);
 
-  
   return (
     <div>
       <header>
@@ -37,6 +34,12 @@ function Input({ setJournal, journal }) {
       >
         Add to Journal
       </button>
+      <section class="section sectionEntryResults" id="entryResultsSection">
+        <div class="container">
+          <div class="container-row entryResultRow"></div>
+        </div>
+      </section>
+      <script src="index.js"></script>
     </div>
   );
 }

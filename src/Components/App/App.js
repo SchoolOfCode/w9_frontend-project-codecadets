@@ -2,7 +2,6 @@ import React from "react";
 import Input from "../Journal-Input/Journal-Input";
 import { useState, useEffect } from "react";
 
-
 /* use effect download at the top to use.@
 
 use the hook in the function above the component
@@ -25,8 +24,6 @@ Make a fake journal from the use state we already have as a dummy
 
 */
 
-
-
 function App() {
   const [journal, setJournal] = useState([
     {
@@ -34,35 +31,30 @@ function App() {
       author: "",
       id: 1,
     },
-  ]
-); //could this be null ? with a && condition
-
-
+  ]); //could this be null ? with a && condition
 
   function removeJournal() {
-    fetch('http://localhost:8000/journal/id' + journal.id, {
-      method: 'Delete'
-    })
+    fetch("http://localhost:8000/journal/id" + journal.id, {
+      method: "Delete",
+    });
   }
 
-  useEffect (()=> { 
-    fetch('http://localhost:3000/journal')
-    .then(res => {
-      return res.json()
-    })
-    .then(data => {
-      console.log(data);
-      setJournal(data);
-    })
-    }, []); //we cant add removeJournal getting an error
-
-
+  useEffect(() => {
+    fetch("http://localhost:3000/journal")
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {
+        console.log(data);
+        setJournal(data);
+      });
+  }, []); //we cant add removeJournal getting an error
 
   return (
     <div>
       {journal.map((item) => {
         return (
-           <li key={item.id}>
+          <li key={item.id}>
             <h1>{item.journalInformation}</h1>
             <button
               className="btn-main entry-submit-btn"

@@ -9,7 +9,7 @@ body {
     padding: 1em;
     border-radius: 2px;
     border: unset;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(255, 255, 255);
     font-family: 'Space Mono', monospace;
   }
 
@@ -21,7 +21,7 @@ body {
       padding: 1em;
       border-radius: 2px;
       border: unset;
-      background-color: lightgoldenrodyellow;
+      background-color: rgb(255, 255, 255);
       font-family: 'Space Mono', monospace;
     }
   }
