@@ -31,7 +31,7 @@ function Input({ setJournal, journal }) {
         onClick={() =>
           setJournal([
             ...journal,
-            { journalInformation: text, id: Math.floor(Math.random() * 1000) },
+            {journal_entry: text},
           ])
         }
       >
