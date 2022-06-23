@@ -29,7 +29,7 @@ function Home() {
     <div class="grid-child purple">
        <p className="text-paragraph"> 
         Do I belong here? Am I worthy? This is what a person dealing with 
-         Impostor syndrome may ask themselves. This internal experience of believing that you 
+         Imposter syndrome may ask themselves. This internal experience of believing that you 
         are not as competent is common and can be dealt with, watch the video below.
        <a href="https://www.youtube.com/watch?v=ZQUxL4Jm1Lo" className="link-text"> Link to video. </a> 
         </p>
