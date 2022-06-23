@@ -29,23 +29,45 @@ Make a fake journal from the use state we already have as a dummy
 
 function App() {
   const [journal, setJournal] = useState([]); //could this be null ? with a && condition
-
-
-
-  function removeJournal(id) {
+ 
+    function removeJournal(id) {
     fetch(`http://localhost:5000/journal/${id}`,{
       method: 'Delete'
     })
+    console.log(journal);
+    let newfilterjournal = journal.filter((item)=>{
+      console.log(item);
+      return item.journal_id !== id
+        })
+        console.log(newfilterjournal);
+    setJournal(newfilterjournal)
   }
 
-  function addJournal(journal_entry) {
-    fetch('http://localhost:5000/journal',{
-      method: 'Post'
-    })
+  async function addJournal(journal_entry) {
+    
+    getJournal()
+    const dataPost = journal_entry[journal.length];
+    console.log(journal_entry);
+    console.log(dataPost);
+    const response = await fetch('http://localhost:5000/journal',{
+    method: 'POST', // *GET, POST, PUT, DELETE, etc.
+    mode: 'cors', // no-cors, *cors, same-origin
+    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+    credentials: 'same-origin', // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json'
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    redirect: 'follow', // manual, *follow, error
+    referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+    body: JSON.stringify(dataPost) // body data type must match "Content-Type" header
+  });
+  const data = await response.json();
+  console.log(data);
   }
 
-  useEffect (()=> { 
-    fetch('http://localhost:5000/journal')
+  async function getJournal(){
+fetch('http://localhost:5000/journal')
     .then(res => {
       return res.json()
     })
@@ -53,9 +75,12 @@ function App() {
       console.log(data);
       setJournal(data.data);
     })
+  }
+  useEffect (()=> { 
+    getJournal()
     }, []); //we cant add removeJournal getting an error
 
-
+  
 
   return (
     <div>
@@ -65,14 +90,13 @@ function App() {
             <h1>{item.journal_entry}</h1>
             <button
               className="btn-main entry-submit-btn"
-              onClick={() => removeJournal(item.journal_id)}
-            >
+              onClick={() => removeJournal(item.journal_id)}>
               Delete
             </button>
           </li>
         );
       })}
-      <Input setJournal={setJournal} journal={journal} />
+      <Input setJournal={addJournal} journal={journal} />
     </div>
   );
 }
