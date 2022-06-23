@@ -47,18 +47,65 @@
 .grid-container {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
-  grid-gap: 35px;
+  grid-gap: 55px;
   background-color: white;
+  text-align: left;
 }
 
 .link-text {
     font-family: "Timmana";
     font-size: 30px;
     display: block;
+    font-weight: bold;
+
 }
 
 .text-paragraph {
   font-family: "Timmana";
-  font-size: 30px;
-
+  font-size: 29px;
+  display: inline;
 }
+
+.centered-one {
+  position: absolute;
+  top: 1200px;
+  right: 1200px;
+  font-family: "Timmana";
+  font-size: 29px;
+  text-align: center;
+  display: inline;
+  color: black;
+}
+
+.centered-two {
+  position: absolute;
+  top: 1200px;
+  right: 650px;
+  font-family: "Timmana";
+  font-size: 29px;
+  text-align: center;
+  display: inline;
+  color: black;
+}
+
+.centered-three {
+  position: absolute;
+  top: 1200px;
+  right: 100px;
+  font-family: "Timmana";
+  font-size: 29px;
+  text-align: center;
+  display: inline;
+  color: black;
+}
+
+.box-images {
+  width: 290px;
+  height: 55px;
+  padding: 5px;
+  border: 5px solid white;
+  background-color: white;
+  margin-top: 29px;
+}
+
+
