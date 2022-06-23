@@ -1,6 +1,17 @@
 import React from "react";
 import Input from "../Journal-Input/Journal-Input";
 import { useState, useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
+import Home from "../Home";
+import Navbar from "../Navbar";
+import About from "../About";
+import Advice from "../Advice/AdviceMain";
 
 
 
@@ -60,7 +71,36 @@ fetch('http://localhost:5000/journal')
   
 
   return (
+   
     <div>
+       <Router>
+
+         <Navbar />
+
+        <Switch>
+       <Route exact path="/">
+          <Redirect to="/home" />
+       </Route>
+          <Route path="/Home">
+        <Home />
+          </Route>
+           </Switch>
+    
+           <Switch>
+       <Route exact path="/Advice">
+        <Advice />
+          </Route>
+           </Switch>
+
+           <Switch>
+       <Route exact path="/About">
+        <About />
+          </Route>
+           </Switch>
+        
+        
+        <Switch> 
+        <Route path="/Journal">
       {journal.map((item) => {
         return (
            <li key={item.journal_id}>
@@ -74,7 +114,12 @@ fetch('http://localhost:5000/journal')
         );
       })}
       <Input setJournal={addJournal} journal={journal} />
+      </Route>
+      </Switch>
+     
+      </Router>
     </div>
+  
   );
 }
 
