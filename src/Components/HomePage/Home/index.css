@@ -15,8 +15,8 @@
 
 .centered {
   position: absolute;
-  top: 280px;
-  right: 150px
+  top: 250px;
+  right: 85px
 }
 
 
@@ -35,11 +35,30 @@
   content: "";
   clear: both;
   display: table;
-  margin-top: -100px;
+  margin-top: -300px;
 }
 
 .wrapper {
   display: flex;
   flex-direction: row;
   width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 35px;
+  background-color: white;
+}
+
+.link-text {
+    font-family: "Timmana";
+    font-size: 30px;
+    display: block;
+}
+
+.text-paragraph {
+  font-family: "Timmana";
+  font-size: 30px;
+
 }
