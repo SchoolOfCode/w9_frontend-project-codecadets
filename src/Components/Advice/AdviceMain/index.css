@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Timmana&display=swap');
+body {
+ background-color: white;
+}
+h1 {
+  color: #2D3142;
+  text-align: center;
+  font-family: "Bebas Neue";
+  margin-top: -15px;
+  margin-bottom: 45px;
+  font-size: 85px;
+}
+.Intro {
+  font-family: "Inter";
+  color: #2D3142;
+  font-size: 22px;
+  width: 97%;
+  font-weight: 200;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.RectangleOne {
+  width: 89%;
+  height: 370px;
+  padding: 40px;
+  margin: auto;
+  margin-bottom: 45px;
+  background: #B8D4DB;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.TextOne {
+  width: 878px;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  color: #2D3142;
+  display: inline-block;
+  max-height: 350px;
+}
+.ImgOne {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: inline-block;
+  margin-right: 45px;
+}
+.RectangleTwo {
+  width: 89%;
+  height: 370px;
+  padding: 40px;
+  margin: auto;
+  margin-bottom: 45px;
+  background: #C4D8B0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.TextTwo {
+  width: 878px;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 22px;
+  line-height: 29px;
+  max-height: 350px;
+  text-align: center;
+  margin-left: 15px;
+  color: #2D3142;
+  display: inline-block;
+}
+.ImgTwo {
+ border-radius: 50%;
+ width: 300px;
+ height: 300px;
+ object-fit: cover;
+ display: inline-block;
+ margin-left: 45px;
+}
+.RectangleThree {
+  width: 89%;
+  height: 370px;
+  padding: 40px;
+  margin: auto;
+  margin-bottom: 45px;
+  background: #B8D4DB;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.TextThree {
+  width: 878px;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 22px;
+  line-height: 29px;
+  max-height: 350px;
+  text-align: center;
+  color: #2D3142;
+  display: inline-block;
+}
+.ImgThree {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: inline-block;
+  margin-right: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -18,6 +18,7 @@ function Input({ setJournal, journal }) {
       <header>
         <h1 className="title">My Personal Journal</h1>
       </header>
+      <form> 
       <textarea
         name="daily-entry"
         value={text}
@@ -25,6 +26,7 @@ function Input({ setJournal, journal }) {
         placeholder="What's on your mind today? 💭"
         onChange={update}
       ></textarea>
+      </form>
 
       <button
         className="btn-main entry-submit-btn"

@@ -5,9 +5,14 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
 import Home from "../Home";
+import Navbar from "../Navbar";
+import About from "../About";
+import Advice from "../Advice/AdviceMain";
+
 
 
 function App() {
@@ -43,17 +48,34 @@ function App() {
   return (
    
     <div>
-       <Router> 
-        <Switch> 
-          <Route exact path="/Home"> 
-            <Home />
+       <Router>
+
+         <Navbar />
+
+        <Switch>
+       <Route exact path="/">
+          <Redirect to="/home" />
+       </Route>
+          <Route path="/Home">
+        <Home />
           </Route>
-        </Switch>
+           </Switch>
     
+           <Switch>
+       <Route exact path="/Advice">
+        <Advice />
+          </Route>
+           </Switch>
+
+           <Switch>
+       <Route exact path="/About">
+        <About />
+          </Route>
+           </Switch>
         
         
         <Switch> 
-        <Route path="/"> 
+        <Route path="/Journal"> 
       {journal.map((item) => {
         return (
            <li key={item.journal_id}>
