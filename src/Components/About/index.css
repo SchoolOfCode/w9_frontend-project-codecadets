@@ -23,6 +23,12 @@ p {
 
 }
 
+.heading-two {
+  color: #2D3142;
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  margin-top: -750px;
+}
 
 .center {
   position: absolute;

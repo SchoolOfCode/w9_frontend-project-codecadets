@@ -12,9 +12,10 @@ body {
     margin: 1em auto;
     padding: 1em;
     border-radius: 2px;
-    border: unset;
-    background-color: lightgoldenrodyellow;
+    /*border: unset;*/
+    background-color: white;
     font-family: 'Space Mono', monospace;
+
   }
 
   @media (min-width: 769px) {
@@ -24,21 +25,22 @@ body {
       margin: 1em auto;
       padding: 1em;
       border-radius: 2px;
-      border: unset;
-      background-color: lightgoldenrodyellow;
+      /*border: unset;*/
+      background-color: white;
       font-family: 'Space Mono', monospace;
+      color: #388699;
     }
   }
   
   .entry-text-box:focus {
-    outline-color: lightcoral;
+    outline-color: #388699;
     font-family: 'Space Mono', monospace;
-    color: lightcoral;
+    color: #388699;
     font-size: 1rem;
   }
   
   .entry-text-box::placeholder {
-    color: lightcoral;
+    color: #388699;
     font-family: 'Space Mono', monospace;
     font-size: 1rem;
   }
@@ -99,7 +101,7 @@ button {
 }
 
 
-/* Button Standard */
+
 
 .btn-main {
   display: block;
@@ -112,15 +114,15 @@ button {
 }
 
 .btn-main {
-  color: lightgoldenrodyellow;
-  background-color: lightcoral;
+  color: rgb(255, 255, 255);
+  background-color: #388699;
 }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: lightgoldenrodyellow;
-  color: lightcoral;
+  background-color: rgb(255, 255, 255);
+  color: #388699;
   font-weight: 700;
   transform: scale(1.08);
 }
