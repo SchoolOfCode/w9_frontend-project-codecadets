@@ -23,13 +23,6 @@ p {
 
 }
 
-.heading-two {
-  color: #2D3142;
-  font-family: "Bebas Neue";
-  font-size: 70px;
-  margin-top: -750px;
-}
-
 .center {
   position: absolute;
   top: 300px;
@@ -49,5 +42,25 @@ p {
   background: #B8D4DB;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
+.heading-two {
+  color: #2D3142;
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  margin-top: -650px;
+  margin-right: -100px;
+  align-items: right;
+  display: inline;
+}
+
+.paragraph-main {
+  color: #2D3142;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  margin-top: 200px;
+  margin-left: -280px;
+  align-items: right;
+  display: inline;
+}

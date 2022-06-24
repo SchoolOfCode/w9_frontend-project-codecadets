@@ -101,9 +101,10 @@ fetch('http://localhost:5000/journal')
         
         <Switch> 
         <Route path="/Journal">
+        <Input setJournal={addJournal} journal={journal} />
       {journal.map((item) => {
         return (
-           <li key={item.journal_id}>
+           <li key={item.journal_id} className="bullet-point">
             <h1>{item.journal_entry}</h1>
             <button
               className="btn-main entry-submit-btn"
@@ -113,7 +114,7 @@ fetch('http://localhost:5000/journal')
           </li>
         );
       })}
-      <Input setJournal={addJournal} journal={journal} />
+     
       </Route>
       </Switch>
      

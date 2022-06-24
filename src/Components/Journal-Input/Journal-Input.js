@@ -16,7 +16,7 @@ function Input({ setJournal, journal }) {
   return (
     <div>
       <header>
-        <h1 className="title">My Personal Journal</h1>
+        <h1 className="title">MY PERSONAL JOURNAL </h1>
       </header>
       <form> 
       <textarea

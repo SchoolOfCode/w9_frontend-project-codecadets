@@ -27,11 +27,12 @@ body {
       border-radius: 2px;
       /*border: unset;*/
       background-color: white;
-      font-family: 'Space Mono', monospace;
+      font-family: "Timmana";
       color: #388699;
+      font-size: 20px;
     }
   }
-  
+
   .entry-text-box:focus {
     outline-color: #388699;
     font-family: 'Space Mono', monospace;
@@ -65,7 +66,11 @@ html {
 /* Global Typography */
 
 .title {
-  color: black;
+  color: #2D3142;
+  display: inline-block;
+  font-family: "Timmana";
+  font-size: 70px;
+  display: inline;
 }
 
 

@@ -11,21 +11,24 @@ h1 {
   font-size: 85px;
 }
 .Intro {
-  font-family: "Inter";
   color: #2D3142;
   font-size: 22px;
-  width: 97%;
+  width: 100%;
   font-weight: 200;
   text-align: center;
   margin: auto;
   margin-bottom: 40px;
+  font-family: "Timmana";
+  font-size: 25px;
+  display: inline;
 }
 .RectangleOne {
   width: 89%;
-  height: 370px;
+  height: 360px;
   padding: 40px;
   margin: auto;
   margin-bottom: 45px;
+  margin-top: 40px;
   background: #B8D4DB;
   border-radius: 20px;
   display: flex;
@@ -34,14 +37,16 @@ h1 {
 .TextOne {
   width: 878px;
   font-family: "Inter";
-  font-style: italic;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 29px;
   text-align: center;
   color: #2D3142;
   display: inline-block;
   max-height: 350px;
+  font-family: "Timmana";
+  font-size: 25px;
+  display: inline;
 }
 .ImgOne {
   border-radius: 50%;
@@ -65,15 +70,18 @@ h1 {
 .TextTwo {
   width: 878px;
   font-family: "Inter";
-  font-style: italic;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 29px;
   max-height: 350px;
   text-align: center;
   margin-left: 15px;
   color: #2D3142;
   display: inline-block;
+  font-family: "Timmana";
+  font-size: 25px;
+  display: inline;
+
 }
 .ImgTwo {
  border-radius: 50%;
@@ -93,18 +101,21 @@ h1 {
   border-radius: 20px;
   display: flex;
   align-items: center;
+  
 }
 .TextThree {
   width: 878px;
   font-family: "Inter";
-  font-style: italic;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 29px;
   max-height: 350px;
   text-align: center;
   color: #2D3142;
   display: inline-block;
+  font-family: "Timmana";
+  font-size: 25px;
+  display: inline;
 }
 .ImgThree {
   border-radius: 50%;
@@ -115,6 +126,11 @@ h1 {
   margin-right: 45px;
 }
 
+.intro {
+  font-family: "Timmana";
+  font-size: 25px;
+  display: inline;
+}
 
 
 
