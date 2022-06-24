@@ -23,12 +23,20 @@ p {
 
 }
 
+.heading-two {
+  color: #2D3142;
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  margin-top: -750px;
+}
 
 .center {
   position: absolute;
-  top: 200px;
-  right: 650px;
-  color: #2D3142;
+  top: 300px;
+  right: 550px;
+  color: white;
+  font-size: 200px;
+
 }
 
 .rectangle {
@@ -39,7 +47,7 @@ p {
   margin-top: 60px;
   margin-bottom: 40px;
   background: #B8D4DB;
-  border-radius: 20px;
   display: flex;
   align-items: center;
 }
+
