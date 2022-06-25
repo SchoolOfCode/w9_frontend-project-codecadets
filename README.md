@@ -1,3 +1,10 @@
+codeCadets - planning/presentation links:
+
+https://trello.com/b/mYCGYhb9/code-cadets-week-9-project
+https://miro.com/app/board/uXjVOr4cxfI=/
+https://miro.com/app/board/uXjVOrtNm8A=/
+https://www.canva.com/design/DAFEIeqeBuM/z2wuTRlntaqPQqD8kmtrNw/edit?utm_content=DAFEIeqeBuM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
