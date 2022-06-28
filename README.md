@@ -1,9 +1,80 @@
-codeCadets - planning/presentation links:
+![Getting Started](./public/projectLogo.jpg)
 
-https://trello.com/b/mYCGYhb9/code-cadets-week-9-project
+##THE HAPPY CODER
+We know that in addition to getting to grips with the technical side of the School of Code, it can also be difficult to maintain a positive mindset.
+
+To address this problem, we have created an app to promote the positive mental wellbeing of School of Code bootcampers. 
+
+####APP FEATURES:
+
+⭐ `Home Page:` This contains links to useful videos/articles, covering topics such as handling imposter syndrome and managing stress. 
+
+We have also created a 'Positivity Generator', which generates random positive affirmations at the click of a button.
+
+⭐ `Personal Journal:` Bootcampers can use our journal feature to record and track their feelings surrounding the bootcamp. Click 'Add to Journal' to add a new entry and 'Delete' to delete an entry.
+
+⭐ `Advice Page:` This contains helpful advice from former School of Code bootcampers.
+
+⭐ `About Page:` You can navigate here to find further information about our team and our project.
+
+####TECH STACK:
+- `JavaScript`
+- `HTML`
+- `CSS`
+- `React`
+- `NodeJS`
+- `Express`
+- `PostgreSQL`
+- `JEST`
+- `Heroku`
+
+####INSTRUCTIONS
+To use our app, we recommend cloning our git repositories for both frontend and backend. 
+
+You can then run npm i in each terminal to install all the necessary dependencies.
+
+Finally, to view the app in the browser, run npm start on the frontend and npm run dev on the backend.
+
+<!-- Prerequisites
+We recommend using VS Code to view and run this app. You can also use other operators (whatever you prefer!)
+We also advise downloading the latest version of NodeJS.
+To access our code, we recommend cloning down our git repository, which we have set as public.
+Once you have cloned down the repository, you can type npm i into the terminal to install all necessary dependencies including dotenv, express, nodeman and postgres.
+
+
+How to access/use the webpage
+Clone down the repo.
+Once you've done this, open it in VS Code.
+Then do npm i.
+Make sure to add a .env file with the database credentials.
+Find out more info about what a .env file is here: 
+Then do npm run dev to run the server.
+
+File structure:
+If you look at our file structure, you'll see a number of different components. -->
+
+####PLANNING DOCUMENTS
+
+[Our Trello Board](https://trello.com/b/mYCGYhb9/)
+[Our User Story](https://miro.com/app/board/uXjVOr4cxfI=/)
+[Low Fidelity Wireframes](https://miro.com/app/board/uXjVOrtNm8A=/)
+[High Fidelity Wireframes](https://www.figma.com/file/5Ce5gpcNI0pICCgAB19u5k/Code-Cadets---Project?node-id=0%3A1)
+[Project Presentation](https://www.canva.com/design/DAFEIeqeBuM/z2wuTRlntaqPQqD8kmtrNw/edit?utm_content=DAFEIeqeBuM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+####AUTHORS
+[Omar Labban](https://github.com/olabban88)
+[Bhupinder Singh](https://github.com/BhupinderSingh86)
+[Nasra Saleh](https://github.com/itsnasras)
+[Megan Tyson](https://github.com/megantyson)
+
+<!-- 
+
+code-cadets-week-9-project
 https://miro.com/app/board/uXjVOr4cxfI=/
 https://miro.com/app/board/uXjVOrtNm8A=/
-https://www.canva.com/design/DAFEIeqeBuM/z2wuTRlntaqPQqD8kmtrNw/edit?utm_content=DAFEIeqeBuM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+https://www.canva.com/design/DAFEIeqeBuM/z2wuTRlntaqPQqD8kmtrNw/edit?utm_content=DAFEIeqeBuM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton -->
+<details>
+<summary> Expand to see more details</summary>
 
 # Getting Started with Create React App
 
@@ -75,3 +146,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+</details>
