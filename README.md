@@ -50,10 +50,10 @@ Finally, to view the app in the browser, run npm start on the frontend and npm r
 
 | Method | Path | Role | Response |
 |---|---|---|---|
-| GET	| /journals | Every journal entry | {success: true, payload: result} | 
-| GET by ID	| /journals/:id | Journal matching the ID | {success: true, payload: journal} |
-| POST | /journals | Create a new journal entry | {success: true, payload: result} |
-| DELETE | /journals/:id |	Delete journal entry | {success: boolean, payload: string}	|
+| GET	| /journal | Every journal entry | {success: true, payload: result} | 
+| GET by ID	| /journal/:id | Journal matching the ID | {success: true, payload: journal} |
+| POST | /journal | Create a new journal entry | {success: true, payload: result} |
+| DELETE | /journal/:id |	Delete journal entry | {success: boolean, payload: string}	|
 
 <!-- Prerequisites
 We recommend using VS Code to view and run this app. You can also use other operators (whatever you prefer!)
