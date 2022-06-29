@@ -1,6 +1,6 @@
 ![Getting Started](./public/projectLogo.jpg)
 
-##THE HAPPY CODER1
+##THE HAPPY CODER
 We know that in addition to getting to grips with the technical side of the School of Code, it can also be difficult to maintain a positive mindset.
 
 To address this problem, we have created an app to promote the positive mental wellbeing of School of Code bootcampers. 
