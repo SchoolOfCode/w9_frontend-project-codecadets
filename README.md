@@ -49,7 +49,7 @@ Finally, to view the app in the browser, run npm start on the frontend and npm r
 #### API ROUTES:
 
 | Method | Path | Role | Response |
-|---|---|---|---|--|
+|---|---|---|---|
 | GET	| /journals | Every journal entry | {success: true, payload: result} | 
 | GET by ID	| /journals/:id | Journal matching the ID | {success: true, payload: journal} |
 | POST | /journals | Create a new journal entry | {success: true, payload: result} |
