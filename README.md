@@ -1,11 +1,11 @@
 ![Getting Started](./public/projectLogo.jpg)
 
-##THE HAPPY CODER
+## THE HAPPY CODER
 We know that in addition to getting to grips with the technical side of the School of Code, it can also be difficult to maintain a positive mindset.
 
 To address this problem, we have created an app to promote the positive mental wellbeing of School of Code bootcampers. 
 
-####APP FEATURES:
+#### APP FEATURES:
 
 ⭐ `Home Page:` This contains links to useful videos/articles, covering topics such as handling imposter syndrome and managing stress. 
 
@@ -17,7 +17,7 @@ We have also created a 'Positivity Generator', which generates random positive a
 
 ⭐ `About Page:` You can navigate here to find further information about our team and our project.
 
-####TECH STACK:
+#### TECH STACK:
 - `JavaScript`
 - `HTML`
 - `CSS`
@@ -28,12 +28,32 @@ We have also created a 'Positivity Generator', which generates random positive a
 - `JEST`
 - `Heroku`
 
-####INSTRUCTIONS
+#### HOW TO RUN THE APP:
+
 To use our app, we recommend cloning our git repositories for both frontend and backend. 
+
+`git clone https://github.com/SchoolOfCode/w9_frontend-project-codecadets.git`
+
+`git clone https://github.com/SchoolOfCode/w9_backend-project-codecadets.git`
 
 You can then run npm i in each terminal to install all the necessary dependencies.
 
+`npm i`
+
 Finally, to view the app in the browser, run npm start on the frontend and npm run dev on the backend.
+
+`npm start`
+
+`npm run dev`
+
+#### API ROUTES:
+
+| Method | Path | Role | Response |
+|---|---|---|---|--|
+| GET	| /journals | Every journal entry | {success: true, payload: result} | 
+| GET by ID	| /journals/:id | Journal matching the ID | {success: true, payload: journal} |
+| POST | /journals | Create a new journal entry | {success: true, payload: result} |
+| DELETE | /journals/:id |	Delete journal entry | {success: boolean, payload: string}	|
 
 <!-- Prerequisites
 We recommend using VS Code to view and run this app. You can also use other operators (whatever you prefer!)
@@ -53,7 +73,7 @@ Then do npm run dev to run the server.
 File structure:
 If you look at our file structure, you'll see a number of different components. -->
 
-####PLANNING DOCUMENTS
+#### PLANNING DOCUMENTS:
 
 [Our Trello Board](https://trello.com/b/mYCGYhb9/)
 [Our User Story](https://miro.com/app/board/uXjVOr4cxfI=/)
@@ -61,7 +81,7 @@ If you look at our file structure, you'll see a number of different components. 
 [High Fidelity Wireframes](https://www.figma.com/file/5Ce5gpcNI0pICCgAB19u5k/Code-Cadets---Project?node-id=0%3A1)
 [Project Presentation](https://www.canva.com/design/DAFEIeqeBuM/z2wuTRlntaqPQqD8kmtrNw/edit?utm_content=DAFEIeqeBuM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-####AUTHORS
+#### AUTHORS:
 [Omar Labban](https://github.com/olabban88)
 [Bhupinder Singh](https://github.com/BhupinderSingh86)
 [Nasra Saleh](https://github.com/itsnasras)
